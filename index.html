@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KRISHAN WEBDESIGNER | Web Designer & Developer</title>
+<meta name="description" content="Krishan designs modern, responsive and high-performing websites for businesses and personal brands.">
+<meta name="theme-color" content="#1A120E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav" id="top">
+  <a class="logo" href="#top" aria-label="Krishan Webdesigner home"><b>K</b><span>KRISHAN<small>WEBDESIGNER</small></span></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#top">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><i></i><i></i><i></i></button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-text">
+    <p class="hello">Hello, I'm</p>
+    <h1>KRISHAN</h1>
+    <h2>Web Designer &amp; Developer</h2>
+    <p class="lead">I design modern, responsive, and high-performing websites for businesses and personal brands.</p>
+    <div class="btns"><a class="btn solid" href="#contact">Hire Me</a><a class="btn ghost" href="#projects">View My Work</a></div>
+  </div>
+  <div class="hero-photo" id="parallax">
+    <div class="shape"></div>
+    <img id="portrait" alt="" width="640" height="800" fetchpriority="high">
+    <div class="mono" id="mono" aria-hidden="true">K</div>
+  </div>
+</section>
+
+<section class="wrap about reveal" id="about">
+  <div class="about-photo"><img id="portrait2" alt="" loading="lazy" width="320" height="400"></div>
+  <div>
+    <h2 class="h">Know About Me</h2>
+    <p>I'm Krishan, a passionate web designer and developer. I create modern, user-friendly and responsive websites that help brands grow online.</p>
+    <ul class="chips"><li id="loc"></li><li class="avail" id="avail"></li></ul>
+  </div>
+</section>
+
+<section class="wrap reveal" id="skills">
+  <h2 class="h c">Tools &amp; Technologies</h2>
+  <div class="grid skills" id="skillGrid"></div>
+</section>
+
+<section class="wrap reveal" id="services">
+  <h2 class="h c">What I Offer</h2>
+  <div class="grid three">
+    <article class="card"><h3>Website Design</h3><p>Modern, responsive and user-friendly designs.</p></article>
+    <article class="card"><h3>Website Development</h3><p>Fast, secure and scalable web applications.</p></article>
+    <article class="card"><h3>E-commerce Websites</h3><p>Complete online stores with payment and order systems.</p></article>
+  </div>
+</section>
+
+<section class="wrap reveal" id="projects">
+  <h2 class="h c">My Projects</h2>
+  <div class="grid three" id="projectGrid"></div>
+</section>
+
+<section class="wrap contact reveal" id="contact">
+  <div>
+    <h2 class="h">Let's Work Together</h2>
+    <p>Have a project in mind? Let's discuss and create something amazing.</p>
+    <div class="btns" id="contactBtns"></div>
+  </div>
+  <form id="form" novalidate>
+    <label>Your name<input name="name" autocomplete="name" required></label>
+    <label>Project details<textarea name="msg" rows="4" required></textarea></label>
+    <div class="btns" id="formBtns"></div>
+    <p class="note" id="note" role="status"></p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <a class="logo" href="#top"><b>K</b><span>KRISHAN<small>WEBDESIGNER</small></span></a>
+  <nav aria-label="Footer"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+  <div class="soc" id="soc"></div>
+  <p class="copy">© <span id="yr"></span> KRISHAN WEBDESIGNER</p>
+</footer>
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
